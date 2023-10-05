@@ -6,6 +6,12 @@ import Skill from "./components/Skills/skill";
 import Works from "./components/Works/works";
 import Intro from "./components/intro/intro";
 
+
+
+
+
+
+
 function App() {
   return (
     <div className="App">
@@ -16,6 +22,7 @@ function App() {
       <Edu/>
       <Contact/>
       <Foot/>
+        
     </div>
   );
 }

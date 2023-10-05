@@ -37,7 +37,7 @@
 }
 .introPara{
     font-size: medium;
-    font-weight: 100rem;
+    /* font-weight: 100rem; */
     font-weight: 20rem;
     letter-spacing: 0.1rem;
 

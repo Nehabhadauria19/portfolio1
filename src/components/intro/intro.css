@@ -1,0 +1,96 @@
+#intro{
+    height: 45rem;
+    width: 100vw;
+    max-width: 95rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.bg{
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    object-fit: cover;
+    width: 25rem;
+    height: 90vh;
+    top: 0;
+}
+.introContent{
+    height: 100vh;
+    width: 1000vh;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+.introName{
+    font-size: 4vw;
+    color: yellow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.introPara{
+    font-size: medium;
+    font-weight: 100rem;
+    font-weight: 20rem;
+    letter-spacing: 0.1rem;
+
+}
+.btn{
+    background: white;
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    border: none;
+   
+}
+.introText{
+    font-size: 1.5rem;
+}
+
+.btnImg{
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 1rem;
+}
+.resume{
+    
+    font-size: medium;
+}
+@media screen and (max-width: 840px){
+    .bg{
+        right: -10vw;
+        /* width: 115vw;
+        height: 768px; */
+       
+    }
+    .introContent{
+        font-size: 10vw;
+    }
+    .hello{
+        font-size: 4.5vw;
+    }
+    /* .introText{
+        font-size: 5vw;
+    }
+    .introName{
+       font-size: 1vw;
+    }
+    .introPara{
+        font-size: 2vh;
+    } */
+}
+@media screen and (max-width: 480px){
+    .bg{
+        right: -20vw;
+        /* width: 115vw;
+        height: 150vw; */
+       
+    }
+}

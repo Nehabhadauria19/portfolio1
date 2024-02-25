@@ -12,7 +12,7 @@ const Intro = () => {
    <span className="introText">I'm <span className="introName">NEHA BHADAURIA</span><br />Aspiring Engineer</span>
    <p className="introPara">"Where imagination meets creativity!"</p>
    <Link><button className='btn'><img src={btnImg} className="btnImg"alt="" />Hire Me!</button></Link>
-   <p className='resume'><a href="https://drive.google.com/file/d/1uLMv4BWKf3LS8DuEzxgqDJhwTYM3jdJN/view?usp=drive_link" target="_blank" rel="noopener noreferrer">My Resume</a></p>
+   <p className='resume'><a href="https://drive.google.com/drive/folders/1qh9UvLZmy-U7WJwsWRJF4BqGsF0wSqUl?usp=drive_link" target="_blank" rel="noopener noreferrer">My Resume</a></p>
    </div>
    <img src={bg}  alt="Profile" className="bg" />
    </section>
